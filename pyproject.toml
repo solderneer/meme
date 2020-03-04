@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "meme"
+version = "0.1.0"
+description = ""
+authors = ["Sudharshan <solderneer@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+praw = "^6.5.1"
+googlefinance = "^0.7"
+pylint = "^2.4.4"
+yahoo-finance = "^1.4.0"
+matplotlib = "^3.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
